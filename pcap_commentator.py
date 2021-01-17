@@ -86,7 +86,7 @@ def pacp_reader(pcap, packet_number):
             "dst_mac": dst_mac,
             "src_ip": src_ip,
             "dst_ip": dst_ip,
-            "interface": packet.interface.options["if_name"],
+            "interface": packet.interface.options.get("if_name"),
             "comment": packet.options.get("opt_comment")
         }
         print(json.dumps(decoded_packet, indent=4))
