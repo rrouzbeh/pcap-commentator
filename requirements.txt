@@ -1,2 +1,2 @@
-python-pcapng==1.0
+python-pcapng==1.1.dev31+gb5e3b09
 dpkt==1.9.4
