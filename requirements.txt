@@ -1,0 +1,2 @@
+python-pcapng==1.0
+dpkt==1.9.4
