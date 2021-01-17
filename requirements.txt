@@ -1,2 +1,2 @@
 dpkt==1.9.4
-python-pcapng==1.0
+git+git://github.com/rshk/python-pcapng@master#egg=python-pcapng
