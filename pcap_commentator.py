@@ -5,8 +5,7 @@ import socket
 
 import dpkt
 from dpkt.compat import compat_ord
-from pcapng import FileScanner
-from pkg.writer import FileWriter
+from pcapng import FileWriter, FileScanner
 
 
 def mac_parser(eth):
